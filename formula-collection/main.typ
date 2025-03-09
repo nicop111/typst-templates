@@ -1,3 +1,11 @@
+//---------------------------------------------------------------------------------------
+
+#let title = "Univerity Course - Formulas"
+#let subtitle = "by Max Mustermann"
+
+//---------------------------------------------------------------------------------------
+
+
 #set page(
   paper: "a4",
   margin: (top: 0.5cm,bottom: 0.5cm,right: 0.5cm,left: 0.5cm),
@@ -22,9 +30,15 @@
   #it
 ]
 
+#set document(title: [#title])
+
+
+//---------------------------------------------------------------------------------------
+
+
 #align(center, [
-  *Univerity Course - Formulas* \
-  by Max Mustermann
+  *#title* \
+  #subtitle
 ])
 
 
